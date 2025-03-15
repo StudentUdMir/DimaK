@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+
+    margin-right: 15px;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+header{
+    background-color: limegreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+header p {
+    padding-top: 12px;
+
+}
+.pers{
+    display: flex;
+    margin-right: 85px;
+    border: 2px solid rgb(28, 117, 15);
+    background-color:  rgb(28, 117, 15);
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 20px;
+  
+}
+.left {
+    display: flex;
+}
+footer{
+    background-color: limegreen;
+}
+footer p {
+    color: white;
+}
+.Mha{
+    width: 675px;
+}
+a:hover {
+    color: white
+    
+}
+a:focus{
+    color: blue
+}
+a:visited{
+    color: blue;
+}
+
+.heroes{
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 75px;
+}
+p {
+    font-size: 20px;
+}
+.villains{
+    float: right;
+    margin-top: 30px;
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.heroes-villains {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heroes-villains img {
+    width: 300px;
+    height: 250px;
+}
+
+
+.columns{
+    display: flex;
+    justify-content: space-around;
+
+}
+.first img, .second img{
+    width: 180px;
+    height: 180px;
+}
